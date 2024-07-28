@@ -20,8 +20,8 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
+							<li><a href="#one">Who I am</a></li>
+							<li><a href="#two">What I do</a></li>
 							<li><a href="#three">Get in touch</a></li>
 						</ul>
 					</nav>
@@ -34,8 +34,11 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
+							<a class="image avatar">
+								<img class="image-pfp" src="images/IMG_2560.jpg" alt="Dheya">
+							</a>
 							<h1>Dheya Abyan</h1>
-							<p>I am currently following through with the video I'm watching in order to properly understand what I'm doing. Check under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<p>I am a junior at Fordham University majoring in Computer Science and minoring in Economics. I am a Junior Frontend Developer intern at a SWE startup called <a href="https://www.wireflow.us/">Wireflow</a>, and I like to craft solid and scalable frontend products with great user experiences.</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -45,82 +48,125 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<a href="javascript:void(0)" class="image" onclick="openModal('modal-github')"><img class="git-proj" src="images/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478-removebg-preview.png" alt="Dheya" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>GitHub User Search App</h2>
+									<p>My latest project, where I use the GitHub users API to pull profile data and display it. I utilize all the skills I learned in previous projects and implement it into this one.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<!--<li><a href="generic.html" class="button">Learn more</a></li>*/-->
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="javascript:void(0)" class="image" onclick="openModal('modal-grid')"><img class="grid-proj" src="images/CSS-Grid-removebg-preview.png" alt="Dheya" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Testimonials Grid Section</h2>
+									<p>This project highlights my CSS Grid skills. In this project, I view the optimal layout for the site depending on the device's screen size.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<!--<li><a href="generic.html" class="button">Learn more</a></li>-->
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="javascript:void(0)" class="image" onclick="openModal('modal-social')"><img class="social-proj" src="images/istockphoto-1259566378-612x612-removebg-preview.png" alt="Dheya" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Social Links Profile</h2>
+									<p>This is my social link-sharing profile, kind of alike a mini portfolio. This project displays my ability to show hover and focus states for all interactive elements on the page.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<!--<li><a href="generic.html" class="button">Learn more</a></li>-->
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="javascript:void(0)" class="image" onclick="openModal('modal-result')"><img class="result-proj" src="images/Result-Proj-removebg-preview.png" alt="Dheya" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Results Summary Component</h2>
+									<p>This is an HTML and CSS only project. It was my first project starting out in my journey, and I built a design of a project I had in mind.</p>
+									<ul class="actions">
+										<!--<li><a href="generic.html" class="button">Learn more</a></li>-->
 									</ul>
 								</div>
 							</div>
 						</section>
 					</section>
 
+				<!-- Modals -->
+					<div id="modal-github" class="modal">
+						<div class="modal-content">
+							<span class="close" onclick="closeModal('modal-github')">&times;</span>
+							<img src="images/Github API Project.jpg" alt="Dheya">
+						</div>
+					</div>
+
+					<div id="modal-grid" class="modal">
+						<div class="modal-content">
+							<span class="close" onclick="closeModal('modal-grid')">&times;</span>
+							<img src="images/Grid Template Project.jpg" alt="Dheya">
+						</div>
+					</div>
+
+					<div id="modal-social" class="modal">
+						<div class="modal-content">
+							<span class="close" onclick="closeModal('modal-social')">&times;</span>
+							<img src="images/Social Links Box.jpg" alt="Dheya">
+						</div>
+					</div>
+
+					<div id="modal-result" class="modal">
+						<div class="modal-content">
+							<span class="close" onclick="closeModal('modal-result')">&times;</span>
+							<img src="images/Result Box.jpg" alt="Dheya">
+						</div>
+					</div>
+
+					<script src="assets/js/modals.js"></script>
+
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>What I do</h2>
+							<p>As a computer science student on the path to becoming a software engineer, my schedule is filled with a variety of activities that guide me and lead me to hone my skills and expand my knowledge in the field.</p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Study Sessions</h3>
+									<p>After work, I spend countless hours in programming sessions with either friends or tutors whom I met through networking. I mainly focus on tackling complex problems, and writing code to develop innovative solutions.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Networking</h3>
+									<p>This is a crucial aspect in my journey, as I actively connect with tech companies and other professionals in the field by attending events and engaging in discussions to learn more about the software engineering experience, it's also how I connected with Wireflow.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Headstarter AI Fellowship</h3>
+									<p>Currently, I am involved in a fellowship with Headstarter AI, where I work on real-world projects and apply my knowledge in given assignments. This fellowship provides me with vital hands-on experience and the opportunity to contribute to AI developments. Furthermore, I get to work with a team of inspired future software engineers! </p>
 								</section>
 								<section>
 									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Intern Experience</h3>
+									<p>During my 2.5 months working under Wireflow, I had the opportunity to dive into web development. I accomplished this by making learning HTML and CSS my main focus, in which then I applied my newfound knowledge into a variety of projects. By learning how to create response web pages to designing user-friendly interfaces, it has further fueled my passion for building and designing web applications.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>College Experience</h3>
+									<p>Studying computer science in Fordham University has taught me a lot of things. The rigorous curriculum and supportive academic environment has allowed me to get into software engineering, and make the learning process of other cs languages easier. I developed a strong understanding with C++ which eventually led me to understand Javascript quicker. Additionally, I was given many opportunities to connect with other tech companies during career fairs.</p>
 								</section>
 								<section>
 									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Future Endeavors</h3>
+									<p>My primary focus for the future is to secure an internship to gain practical experience and progress further into my journey of becoming a software engineer. To achieve this, I plan to enhance my technical skills in JavaScript, followed by learning React and Next.js. Additionally, I will concentrate on completing important and impactful projects that showcase my abilities and skills which will be extremely helpful in strenghtening my resume.</p>
 								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
+								<li><a href="#three" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
@@ -129,7 +175,7 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>I'd love to hear from you! Whether you have a question, a project idea, or want to connect, feel free to reach out!</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -156,26 +202,26 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
+											<span>667 East 232nd Street<br />
+											Bronx, NY 10466<br />
 											USA</span>
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
+											<a href="#">tankonated@gmail.com</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
+											<span>(347)-341-1919</span>
 										</li>
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://www.youtube.com/channel/UCjZRYxZKsAhbz-yJEJXCS0g" class="icon brands fa-youtube"><span class="label">Twitter</span></a></li>
+												<li><a href="https://www.reddit.com/user/DeeyaCodes/" class="icon brands fa-reddit"><span class="label">Facebook</span></a></li>
+												<li><a href="https://github.com/Deeeeya" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.instagram.com/deeya_ab/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="https://www.linkedin.com/in/dheya-abyan-309255263/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
